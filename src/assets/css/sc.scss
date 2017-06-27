@@ -1,0 +1,8 @@
+@function rem ( $px ) {
+  @return $px  / 46.875 +  rem;
+}
+.aa{
+  width: rem(100);
+  height: rem(100);
+  background: palegoldenrod;
+}
